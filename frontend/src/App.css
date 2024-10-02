@@ -1,0 +1,201 @@
+.login{
+    background-image: url('./images/img1.png');
+    height: 100vh;
+   
+}
+
+
+  .quiz-heading{
+    font-family: "Noto Serif", serif;
+  }
+
+  .question-font{
+    font-family: "Source Serif 4", serif;
+  }
+  
+  .question-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .option-box {
+    width: 40%;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    text-align: left;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .option-box:hover {
+    background-color: rgb(204, 200, 200);
+  }
+  
+  .option-box.selected {
+    background-color: rgb(204, 200, 200);
+  }
+  
+  .form-check-label {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #00f;
+    border: 2px solid #00f;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0 20px #0056b3;
+  }
+  
+  
+
+  .student-dashboard{
+    background-image: url('./images/image2.jpg');
+    height: 100vh;
+  }
+  
+  .user-greet{
+    font-family: "Merriweather", serif;
+    font-weight: 1000;
+    font-size:xx-large;
+    padding-left: 50px;
+    padding-top: 100px;
+  }
+
+
+.student-dashboard {
+
+
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .user-greet {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #quizSelect {
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+  }
+  
+ 
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  .label-font{
+    font-family: "Source Serif 4", serif;
+    font-size: 2rem;
+  }
+
+  .take-quiz{
+    background-color:rgb(231, 221, 210);
+  }
+
+  .score{
+    font-family: "Noto Serif", serif;
+    font-size: 2rem;
+    color: red;
+    padding-bottom:20px;
+  }
+
+  /* --------------------------------------------------------------------------------*/
+
+  /* App.css */
+
+  .welcome-font{
+    font-family: "Crimson Text", serif;
+    font-size: 5rem;
+  }
+
+  .caption-font{
+    font-family: "Work Sans", sans-serif;
+    font-size: 2rem;
+  }
+  
+  .hero-section {
+    background-image: url('./images/image3.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: #fff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  .features-section .card,
+  .popular-quizzes-section .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .features-section .card:hover,
+  .popular-quizzes-section .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .footer {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #343a40;
+  }
+  
+.footer-section{
+    background-color: black;
+    color: white;
+}
+
+
+nav{
+    background-color: #16274a;
+}
+
+.admin-dashboard{
+    height: 100vh;
+    background-image: url('./images/image4.jpg');
+}
